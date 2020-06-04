@@ -3,6 +3,15 @@
   margin: 0 auto;
   text-align: center;
 }
-#reBtn{
+#replay_btn{
+  display: none;
+}
+#category_content{
+  display: none;
+}
+#menu_content{
+  display: none;
+}
+#init_content{
   display: none;
 }
