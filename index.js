@@ -49,9 +49,6 @@ const menuTotal = document.querySelector("#menu_total");
 const categoryContent = document.querySelector("#category_content");
 const menuContent = document.querySelector("#menu_content");
 let rendomCategory;
-
-
-//test 3번째 시작 버튼 눌리면 "이정도면 당신이 먹고 싶은거 있습니다. 그거 드세요!" 메시지 보내고 서비스 다운시키기!
 let count = 3;
 
 //shutdown
@@ -62,7 +59,7 @@ const shutdown = () => {
   menuContent.style.display = "none";
 }
 
-//replay버튼
+//replay btn
 replayBtn.addEventListener("click", () => {
   categoryContent.style.display = "none";
   menuContent.style.display = "none";
@@ -103,7 +100,7 @@ startBtn.addEventListener("click", () => {
   }
 })
 
-//랜덤숫자
+//rendom number
 const rendomNumber = (target) => {
   let number = parseInt(Math.random() * target.length);
   console.log("number>>", number);
