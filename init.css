@@ -1,0 +1,13 @@
+@font-face{
+  font-family: "Noto_Sans_KR";
+  src: url("font/Noto_Sans_KR");
+}
+body{
+  /* font-family: "Noto_Sans_KR", Arial, Helvetica, sans-serif; */
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, div, a, span, ul, li, ol{
+  margin: 0;
+  padding: 0;
+}

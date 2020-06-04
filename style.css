@@ -1,17 +1,31 @@
-#content{
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
+#warp{
+  /* background: crimson; */
+  width: 70%;
+  margin: 100px auto;
 }
-#replay_btn{
-  display: none;
+#warp::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+#start_content{
+  /* background: darkgrey; */
+  width: 30%;
+  float: left;
+}
+#main_content{
+  /* background: slateblue; */
+  width: 70%;
+  float: left;
 }
 #category_content{
+  /* background: forestgreen; */
   display: none;
 }
 #menu_content{
+  /* background: saddlebrown; */
   display: none;
 }
-#init_content{
+#replay_btn{
   display: none;
 }
