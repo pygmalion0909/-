@@ -3,6 +3,8 @@
 */
 #warp{
   width: 80%;
+  /* 더이상 못 줄어들게 */
+  min-width: 550px;
   margin: 100px auto;
 }
 #warp::after{
@@ -198,5 +200,17 @@
   }
   #footer_content p{
     font-size: 10px;
+  }
+  .category_content h2{
+    font-size: 15px;
+  }
+  .category_content #category_total{
+    font-size: 15px;
+  }
+  .menu_content h2{
+    padding: 15px;
+  }
+  .menu_content #menu_total{
+    font-size: 15px;
   }
 }

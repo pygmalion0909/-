@@ -16,12 +16,17 @@ const menuList = {
     "물냉면",
     "비빔냉면",
     "삼계탕",
-    "국밥"
+    "국밥",
+    "쭈꾸미",
+    "닭도리탕",
+    "찜닭",
+    "먹지말자!"
   ],
   "중식": [
     "짜장면", 
     "볶음밥",
-    "짬뽕"
+    "짬뽕",
+    "탕수육"
   ],
   "양식": [
     "햄버거",
@@ -31,7 +36,10 @@ const menuList = {
   "일식":[
     "돈까스",
     "회덮밥",
-    "규동"
+    "규동",
+    "참치",
+    "물회",
+    "연어",
   ],
   "편의점식": [
     "김밥&&라면",
@@ -95,7 +103,7 @@ categoryBtn.addEventListener("click", () => {
 const displayMenu = (target) => {
   const menuSelect = menuList[target];
   menuSelect.forEach( (value, index, array) => {
-    menuTotal.innerHTML = `메뉴 리스트  : ${array}`;
+    menuTotal.innerHTML = `< ${array} > `;
   })
   console.log("targetList>>", menuSelect);
 };
