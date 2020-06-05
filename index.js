@@ -102,7 +102,6 @@ const displayMenu = (target) => {
 
 //menu btn
 menuBtn.addEventListener("click", () => {
-  // replayBtn.classList.add("show_content");
   if(rendomCategory !== undefined && rendomCategory !== null){
     if(menuList[rendomCategory]){
       const rendomNumbering = rendomNumber(menuList[rendomCategory]);

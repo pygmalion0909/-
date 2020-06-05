@@ -169,3 +169,34 @@
 #main_content .menu_content.show_btn{
   display: block;
 }
+
+@media(max-width:960px){
+  #start_content #title{
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+}
+@media(max-width:800px){
+  #start_content #title{
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+}
+@media(max-width:650px){
+  #start_content #title{
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  #footer_content p{
+    font-size: 12px;
+  }
+}
+@media(max-width:500px){
+  #start_content #title{
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  #footer_content p{
+    font-size: 10px;
+  }
+}
