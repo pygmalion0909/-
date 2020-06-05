@@ -2,7 +2,6 @@
  warp 
 */
 #warp{
-  /* background: crimson; */
   width: 80%;
   margin: 100px auto;
 }
@@ -35,7 +34,6 @@
   padding: 5px;
 }
 .btn_content button{
-  /* width: 120px; */
   cursor: pointer;
   padding: 10px;
   height: 50px;
@@ -43,20 +41,16 @@
 }
 .replay_btn{
   display: none;
-  /* width: 300px; */
 }
 /* 
   manual_content 
 */
 #start_content .manual_content{
-  /* background: khaki; */
-  /* text-align: center; */
 }
 .manual_content .manual_ul{
 
 }
 .manual_ul li{
-  /* background-color: antiquewhite; */
   padding: 20px;
 }
 .manual_ul li span{
@@ -69,20 +63,17 @@
   footer_content 
 */
 #start_content #footer_content{
-  /* background-color: red; */
   margin-top: 10px; 
   text-align: center;
   padding: 15px;
 }
 #footer_content p {
-  /* background: red; */
   margin: 8px 0;
 }
 /* 
   main_content 
 */
 #main_content{
-  /* background: slateblue; */
   width: 60%;
   float: left;
 }
@@ -140,7 +131,6 @@
   shutdown_content 
 */
 #shutdown_content{
-  /* background: crimson; */
   width: 60%;
   margin: 5px auto;
   display: none;
@@ -169,7 +159,9 @@
 #main_content .menu_content.show_btn{
   display: block;
 }
-
+/* 
+  mediaQuey
+*/
 @media(max-width:960px){
   #start_content #title{
     font-size: 25px;
@@ -180,6 +172,14 @@
   #start_content #title{
     font-size: 25px;
     letter-spacing: 10px;
+  }
+  #start_content .btn_content{
+    height: 100px;
+  }
+  .btn_content button{
+    padding: 10px;
+    height: 50px;
+    margin: 5px 5px;
   }
 }
 @media(max-width:650px){
