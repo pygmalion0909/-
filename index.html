@@ -5,32 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="init.css">
   <link rel="stylesheet" href="style.css">
-  <title>뭐먹을래?!</title>
+  <title>오늘한끼</title>
 </head>
 <body>
   <div id="warp">
+    <!-- start_content -->
     <div id="start_content">
-      <h2 id="title">오늘의 음식!</h1> 
-      <!-- <button id="setting_btn">메뉴 셋팅!</button> -->
-      <button id="start_btn">시작!</button>
-      <button id="replay_btn">다시!</button>
+      <h2 id="title">오늘한끼</h2> 
+      <div class="btn_content">
+        <button class="user_set_btn">사용자설정(미구현)</button>
+        <button class="start_btn">START</button>
+        <button class="replay_btn">REPLAY</button>
+      </div>
+      <div class="manual_content">
+        <ul class="manual_ul">
+          <li>
+            <span></span>
+            오늘한끼는 한끼메뉴를 정하지 못한 결정 장애을 위해 제작되었습니다.
+          </li>
+          <li>
+            <span></span>
+            START클릭 시 "오늘한끼 카테고리가 정해집니다."
+          </li>
+          <li>
+            <span></span>
+            카테코리에 따라 오늘한끼가 달라집니다.
+          </li>
+          <li>
+            <span></span>
+            오늘한끼가 마음에 들지 않는다면 REPLAY을 눌려주세요.
+          </li>
+          <li>
+            <span></span>
+            "사용자 설정"은 직접 카테고리, 메뉴를 입력 할 수 있습니다.
+          </li>
+        </ul>
+      </div>
+      <div id="footer_content">
+        <p>@Copyright 2020.김경필.</p>
+        <p>Superpil.AllRightReserved.</p>
+        <p>TEL : 010-5***-**** | kakao : P*******</p>
+        <p>우) 한끼 먹어도 제대로 먹자!(치느님 말씀)</p>
+      </div>
     </div>
+    <!-- main_content -->
     <div id="main_content">
-      <div id="category_content">
-        <h2>음식 카테고리 선택</h2>
+      <div class="category_content">
+        <h2>오늘한끼 카테고리</h2>
         <p id="category_total"></p>
         <p id="category_notice"></p>
-        <button id="category_btn">카테고리 선택!</button>
+        <button class="category_btn">카테고리선택</button>
       </div>
-      <div id="menu_content">
-        <h2>메뉴 선택</h2>
+      <div class="menu_content">
+        <h2>오늘한끼</h2>
         <p id="menu_total"></p>
         <p id="menu_notice"></p>
-        <button id="menu_btn">메뉴 선택!</button>
+        <button id="menu_btn">오늘한끼선택</button>
       </div>
     </div>
   </div>
-
+  <!-- shutdown_content -->
+  <div id="shutdown_content">
+    <p>지금 당신 마음속에 있는 메뉴를 드세요.</p>
+    <img src="img/shutDownImg.jpg" alt="">
+  </div>
+  <!-- <div>
+    <p>todo</p>
+    <ul>
+      <li>export 리팩토링!</li>
+      <li>사용법작성</li>
+      <li>디자인</li>
+      <li>사용자 메뉴 지정가능</li>
+      <li>용어 설정</li>
+    </ul>
+  </div> -->
   <script src="index.js"></script>
 </body>
 </html>
